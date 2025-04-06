@@ -10,15 +10,15 @@ variable "engine_version" {
   type = string
 }
 
-variable "database" {
+variable "database_name" {
   type = string
 }
 
-variable "dbusername" {
+variable "db_username" {
   type = string
 }
 
-variable "dbpassword" {
+variable "db_password" {
   type = string
 }
 
@@ -27,7 +27,7 @@ variable "db_cluster_instance_class" {
 }
 
 variable "db_storage" {
-  type = string
+  type = number
 }
 
 variable "db_vpc_security_group" {
