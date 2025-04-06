@@ -5,7 +5,3 @@ output "db-identier" {
 output "endpoint" {
   value = aws_rds_cluster.rds-mysql.endpoint
 }
-
-output "address" {
-  value = aws_rds_cluster.rds-mysql.address
-}
